@@ -29,10 +29,11 @@ git clone https://github.com/yourusername/face-verification-siamese.git
 cd face-verification-siamese
 pip install -r requirements.txt
 
-## Requirements
+
+Requirements
+```bash
 The required dependencies are listed in the `requirements.txt` file. To install them, run:
 
-```bash
 pip install -r requirements.txt
  
 
