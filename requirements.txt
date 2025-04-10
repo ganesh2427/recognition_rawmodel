@@ -1,0 +1,4 @@
+- Python 3.8+
+- TensorFlow 2.6+
+- OpenCV 4.5+
+- NumPy 1.19+
