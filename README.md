@@ -23,6 +23,10 @@ This project provides an face verification system using a Siamese Neural Network
     - [Context and Motivation](#context-and-motivation)
     - [Objectives](#objectives)
     - [Significance of the Study](#significance-of-the-study)
+-[Data Preparation](#Data-Preparation)
+    - [Dataset Collection and Structuring](#Dataset-Collection-and-Structuring)
+    - [How the Dataset is Created](#How-the-Dataset-is-Created)
+    - [Pair Types in Training](#Pair-Types-in-Training)
 - [Install](#Install)
     - [Prerequisites](#Prerequisites)
     - [Steps](#Steps)
@@ -32,7 +36,6 @@ This project provides an face verification system using a Siamese Neural Network
 - [Project Structure](#Project-Structure)
 - [Future Work](#Future-Work)
 - [Results](#results)
-- [Future Work](#future-work)
 - [References](#references)
 - [License](#license)
 
@@ -73,6 +76,10 @@ This work contributes to the growing body of research on face verification by of
 	Foundations for Future Work: Establishing a strong baseline for future enhancements such as the integration of ArcFace loss, which can further refine feature separation through angular margin penalties.
 
 By addressing the intersection of deep metric learning, efficient architectures, and real-world deployment constraints, this study aims to advance the development of reliable and scalable face verification systems.
+
+
+
+
 
 
 
@@ -130,6 +137,17 @@ This data preparation strategy ensures the model learns both to recognize the sa
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ## Installation
 
 ### Prerequisites
@@ -171,6 +189,14 @@ Now you are ready to use the project!
 
 
 
+
+
+
+
+
+
+
+
 ## Project Structure
 
 The repository is organized as follows:
@@ -199,12 +225,26 @@ The repository is organized as follows:
 ```
 
 
+
+
+
+
+
+
+
+
 ## Future Work
 
 - **Integration of ArcFace Loss:** Incorporate angular margin-based ArcFace loss to further improve the discriminative power of facial embeddings.
 - **Hard Negative Mining:** Implement strategies to select challenging negative pairs during training, enhancing model robustness.
 - **3D Face Data:** Extend the system to utilize 3D facial datasets for improved performance under varying poses, lighting, and occlusions.
 - **Model Optimization for Edge Devices:** Apply techniques such as quantization, pruning, and knowledge distillation to reduce model size and inference time for deployment on mobile and embedded devices.
+
+
+
+
+
+
 
 
 
