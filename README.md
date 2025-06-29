@@ -102,7 +102,12 @@ The dataset for this project is organized into three categories: **anchor**, **p
 
 - **Folder Structure:**  
 
-    data/ ├── anchor/ # Reference images ├── positive/ # Additional images of the same individuals └── negative/ # Images of different people
+```
+    data/
+├── anchor/ # Reference images (e.g., one image per person)
+├── positive/ # Additional images of the same individuals (matching the anchor)
+└── negative/ # Images of different people (non-matching pairs)
+```
 
 
 - **Preprocessing Steps:**  
