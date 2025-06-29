@@ -149,6 +149,17 @@ The repository is organized as follows:
 
 
 
+## References
+
+- [A Review of Face Recognition Technology](research_papers/A_Review_of_Face_Recognition_Technology.pdf)
+- [Siamese Neural Network Paper](research_papers/siamese%20neural%20network.pdf)
+- [Paper: 1-s2.0-S2665917423001368-main](research_papers/1-s2.0-S2665917423001368-main.pdf)
+- [Paper: 2312.14001v2](research_papers/2312.14001v2.pdf)
+- [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
+- [Siamese Neural Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+
+
+
 
  
 
