@@ -114,7 +114,27 @@ Now you are ready to use the project!
 ## Project Structure
 
 The repository is organized as follows:
-    recognition_rawmodel/ ├── backend/ │ ├── face.py # Main script for model definition, training, and evaluation │ └── ... # (Other backend scripts/utilities) ├── data/ │ ├── anchor/ # Reference images for each identity │ ├── positive/ # Positive samples (same person as anchor) │ └── negative/ # Negative samples (different person) ├── requirements.txt # Python dependencies ├── README.md # Project documentation └── ... # (Other files and folders)
+
+.
+├── README.md
+├── backend
+│   ├── face.py
+│   ├── haarcascade_frontalface_default.xml
+│   ├── raw_siamese.ipynb
+│   ├── results
+│   │   ├── Screenshot 2025-04-09 at 10.31.59 PM.png
+│   │   ├── Screenshot 2025-04-10 at 7.25.33 PM.png
+│   │   └── Screenshot 2025-04-10 at 7.25.40 PM.png
+│   ├── siamese efficient.ipynb
+│   ├── siamese.ipynb
+│   ├── siamesemodelv2.keras
+│   └── siamesemodelv3.keras
+├── requirements.txt
+└── research_papers
+    ├── 1-s2.0-S2665917423001368-main.pdf
+    ├── 2312.14001v2.pdf
+    ├── A_Review_of_Face_Recognition_Technology.pdf
+    └── siamese neural network.pdf
 
 
 
