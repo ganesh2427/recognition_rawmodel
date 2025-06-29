@@ -70,19 +70,17 @@ By addressing the intersection of deep metric learning, efficient architectures,
 
 
 
-## Key Features
-- 🎭 **Siamese Architecture**: Twin networks with shared weights
-- ⚡ **EfficientNetB0**: Lightweight pre-trained feature extractor
-- 📏 **L1 Distance Metric**: Computes similarity between embeddings
-- 📱 **Edge-Optimized**: 4x fewer parameters than baseline CNN
-- 🔄 **Contrastive Learning**: Works with limited labeled data
-
 ## Installation
 
 ### Prerequisites
 
 - **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
 - **pip**: Comes with Python, but ensure it's up to date (`python -m pip install --upgrade pip`)
+- **Git**: For cloning the repository ([Download Git](https://git-scm.com/downloads))
+- **TensorFlow 2.6+**: For deep learning (installed via `requirements.txt`)
+- **OpenCV 4.5+**: For image processing (installed via `requirements.txt`)
+- **NumPy 1.19+**: For numerical operations (installed via `requirements.txt`)
+- **Matplotlib**: For plotting and visualization (installed via `requirements.txt`)
 
 ### Steps
 
