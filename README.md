@@ -53,6 +53,17 @@ This research aims to design and evaluate a face verification system based on a 
 
 
 
+### Significance of the Study
+
+This work contributes to the growing body of research on face verification by offering a lightweight yet accurate solution suitable for practical deployment. The key contributions include:
+
+	Improved Verification Accuracy: Demonstrating that EfficientNetB0 significantly enhances the model’s ability to distinguish between similar and dissimilar faces.
+	
+	Model Efficiency: Achieving high accuracy with fewer parameters compared to traditional CNNs, making the model suitable for edge computing and real-time applications.
+
+	Foundations for Future Work: Establishing a strong baseline for future enhancements such as the integration of ArcFace loss, which can further refine feature separation through angular margin penalties.
+
+By addressing the intersection of deep metric learning, efficient architectures, and real-world deployment constraints, this study aims to advance the development of reliable and scalable face verification systems.
 
 
 
