@@ -115,8 +115,8 @@ Now you are ready to use the project!
 
 The repository is organized as follows:
 
-'''
-.
+
+```.
 ├── README.md
 ├── backend
 │ ├── face.py
@@ -135,8 +135,7 @@ The repository is organized as follows:
 ├── 1-s2.0-S2665917423001368-main.pdf
 ├── 2312.14001v2.pdf
 ├── A_Review_of_Face_Recognition_Technology.pdf
-└── siamese neural network.pdf
-'''
+└── siamese neural network.pdf ```
 
 
 
