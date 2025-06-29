@@ -27,7 +27,7 @@ This project provides an face verification system using a Siamese Neural Network
 - [References](#references)
 - [License](#license)
 
-## Project Overview
+## Background
 This project implements a **Siamese Neural Network** with **EfficientNetB0** backbone for face verification tasks. It compares pairs of facial images to determine if they belong to the same person, achieving **87% accuracy** while being optimized for edge devices.
 
 ## Key Features
