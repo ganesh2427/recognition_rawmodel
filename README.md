@@ -34,7 +34,7 @@ This project provides an face verification system using a Siamese Neural Network
     - [EfficientNetB0](#EfficientNetB0)
     - [Integration and Training Process](#Integration-and-Training-Process)
     - [Face Verification Mechanics](#Face-Verification-Mechanics)
-- [Install](#Install)
+- [Installation](#Installation)
     - [Prerequisites](#Prerequisites)
     - [Steps](#Steps)
         - [Clone the repository](#Clone-the-repository)
