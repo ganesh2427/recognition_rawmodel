@@ -115,6 +115,7 @@ Now you are ready to use the project!
 
 The repository is organized as follows:
 
+'''
 .
 ├── README.md
 ├── backend
@@ -135,6 +136,7 @@ The repository is organized as follows:
 ├── 2312.14001v2.pdf
 ├── A_Review_of_Face_Recognition_Technology.pdf
 └── siamese neural network.pdf
+'''
 
 
 
