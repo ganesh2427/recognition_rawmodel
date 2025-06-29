@@ -23,7 +23,7 @@ This project provides an face verification system using a Siamese Neural Network
     - [Context and Motivation](#context-and-motivation)
     - [Objectives](#objectives)
     - [Significance of the Study](#significance-of-the-study)
--[Data Preparation](#Data-Preparation)
+- [Data Preparation](#Data-Preparation)
     - [Dataset Collection and Structuring](#Dataset-Collection-and-Structuring)
     - [How the Dataset is Created](#How-the-Dataset-is-Created)
     - [Pair Types in Training](#Pair-Types-in-Training)
