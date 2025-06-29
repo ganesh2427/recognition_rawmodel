@@ -24,18 +24,34 @@ This project implements a **Siamese Neural Network** with **EfficientNetB0** bac
 - 🔄 **Contrastive Learning**: Works with limited labeled data
 
 ## Installation
-```bash
-```bash
+
+### Prerequisites
+
+- **Python 3.8+**: [Download Python](https://www.python.org/downloads/)
+- **pip**: Comes with Python, but ensure it's up to date (`python -m pip install --upgrade pip`)
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
    git clone https://github.com/ganesh2427/recognition_rawmodel.git
    cd recognition_rawmodel
    ```
-   
-Requirements
-```bash
-The required dependencies are listed in the `requirements.txt` file. To install them, run:
 
-pip install -r requirements.txt
- 
+2. **(Optional) Create and activate a virtual environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+Now you are ready to use the project!
 
 ## Usage
 
