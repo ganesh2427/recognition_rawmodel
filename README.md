@@ -90,19 +90,19 @@ By addressing the intersection of deep metric learning, efficient architectures,
 
 ### Steps
 
-### 1. **Clone the repository:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/ganesh2427/recognition_rawmodel.git
    cd recognition_rawmodel
    ```
 
-### 2. **(Optional) Create and activate a virtual environment:**
+2. **(Optional) Create and activate a virtual environment:**
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    ```
 
-### 3. **Install dependencies:**
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -137,25 +137,12 @@ The repository is organized as follows:
 ├── 2312.14001v2.pdf
 ├── A_Review_of_Face_Recognition_Technology.pdf
 └── siamese neural network.pdf
+```
 
 
 
 
-## Usage
+ 
 
-### 1. Prepare Dataset
-Structure your dataset as:
-dataset/
-├── anchor/ # Reference images
-├── positive/ # Same-person variants
-└── negative/ # Different-person images
-
-Copy
-
-### 2. Train the Model
-```python
-from model import SiameseNetwork
-
-model = SiameseNetwork(backbone='efficientnetb0')
-model.train(data_dir='dataset/', epochs=50)
+ 
 
