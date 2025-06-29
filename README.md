@@ -90,19 +90,19 @@ By addressing the intersection of deep metric learning, efficient architectures,
 
 ### Steps
 
-1. **Clone the repository:**
+### 1. **Clone the repository:**
    ```bash
    git clone https://github.com/ganesh2427/recognition_rawmodel.git
    cd recognition_rawmodel
    ```
 
-2. **(Optional) Create and activate a virtual environment:**
+### 2. **(Optional) Create and activate a virtual environment:**
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    ```
 
-3. **Install dependencies:**
+### 3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
