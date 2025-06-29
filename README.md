@@ -40,7 +40,7 @@ This project provides an face verification system using a Siamese Neural Network
         - [Clone the repository](#Clone-the-repository)
         - [(Optional)Create and activate a virtual environment](#(Optional)Create-and-activate-a-virtual-environment)
         - [Install dependencies](#Install-dependencies)
-- [Results](#results)
+- [Results and Evaluation](#Results-and-Evaluation)
 - [Project Structure](#Project-Structure)
 - [Future Work](#Future-Work)
 - [References](#references)
@@ -298,9 +298,51 @@ Now you are ready to use the project!
 
 
 
-## Results
+## Results and Evaluation
+
+The performance of the face verification system was assessed through a comparative analysis between two model configurations:
+1. **Baseline Siamese Network** with a custom CNN backbone
+2. **Enhanced Siamese Network** integrating EfficientNetB0 as the feature extractor
+
+### Evaluation Criteria
+
+- **Testing Accuracy**
+- **Number of Trainable Parameters**
+- **Training Efficiency** (Epochs to Converge)
+- **Qualitative Feature Learning** (Generalization on Unseen Data)
+
+### Siamese Network with Custom CNN (Baseline)
+
+- The model began with a very low loss (0.015), but the positive pair accuracy (p.result()) rapidly declined from 99.3% to around 49%.
+- This indicates that although the network was minimizing the loss, it struggled to generalize to new face pairs.
+
+<p align="center">
+  <img src="images/baseline siamese result.png" alt="BaseLine Siamese Result" width="400"/>
+</p>
+
+### Siamese Network with EfficientNetB0
+
+- The model started with a higher initial loss (~0.67), but both the loss and positive accuracy improved steadily over time.
+- The model reached a positive accuracy of over 93% with a lower final loss than it started with.
+- This reflects better generalization, stability, and learning capability, confirming the effectiveness of EfficientNetB0 for face feature extraction.
+
+<p align="center">
+  <img src="images/siamese integratin efficient net.png" alt="Siamese Integrated With Efficient Net Result" width="400"/>
+</p>
 
 
+### Performance Comparison (On Test Data)
+
+<p align="center">
+  <img src="images/chart.png" alt="Performance Comparison (On Test Data)" width="400"/>
+</p>
+
+### Key Observations
+
+- The integration of EfficientNetB0 resulted in a dramatic increase in accuracy (from ~49% to ~87%), indicating a significantly better understanding of facial similarity.
+- Despite having fewer parameters (less than one-fourth of the baseline model), the EfficientNet-enhanced version outperformed the larger custom CNN. This demonstrates the power of transfer learning and compound-scaled architectures.
+- Training was more stable with EfficientNetB0, achieving strong results with minimal overfitting and more consistent convergence.
+- The feature embeddings produced by EfficientNet were more discriminative, enabling the model to separate positive and negative pairs more effectively even under varying lighting and expressions.
 
 
 
