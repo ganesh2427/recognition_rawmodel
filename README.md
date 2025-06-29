@@ -187,9 +187,13 @@ This distance vector is then passed through a Dense layer with sigmoid activatio
 - Both input branches share identical parameters, ensuring consistent feature extraction and effective metric learning.
 - The shared weights between the two EfficientNetB0 branches enforce that both inputs are processed in the same manner, which is crucial for fair and consistent similarity evaluation.
 
+![Siamese Block Architecture](images/siamese_block.png)
+
 ### EfficientNetB0
 
 **EfficientNetB0** is a lightweight and high-performing convolutional neural network known for its use of compound scaling. Pre-trained on ImageNet, it offers rich feature extraction capabilities with significantly fewer parameters than traditional CNNs.
+
+![Siamese Block Architecture](images/efficientnetb0.png)
 
 **Benefits in this project:**
 - **Transfer Learning:** Leveraging pre-trained weights enables faster convergence and better generalization.
@@ -200,6 +204,7 @@ The two input images (anchor and candidate) are passed through identical Efficie
 
 ### Integration and Training Process
 
+![Siamese Block Architecture](images/integration.png)
 - **Loss Function:** Binary Cross-Entropy (BCE) Loss is used for the binary classification task.
 - **Optimizer:** Adam optimizer with a learning rate of 0.0001.
 - **Training Strategy:**  
