@@ -109,6 +109,11 @@ The dataset for this project is organized into three categories: **anchor**, **p
 - **Negative Images (Different-Person Pairs):**  
   Images of different individuals than the anchor. These help the model learn to distinguish between different identities.
 
+
+<p align="center">
+  <img src="images/data str.png" alt="Data Structure" width="400"/>
+</p>
+
 ### How the Dataset is Created
 
 - **Data Collection:**  
@@ -138,6 +143,16 @@ The dataset for this project is organized into three categories: **anchor**, **p
 |----------------|---------------------------------------------|----------------------------|
 | Positive Pair  | Anchor & another image of the same person   | Helps model learn similarity|
 | Negative Pair  | Anchor & an image of a different person     | Helps model learn dissimilarity|
+
+
+<p align="center">
+  <img src="images/positive pair.png" alt="Positive Pair" width="400"/>
+</p>
+
+
+<p align="center">
+  <img src="images/negative pair.png" alt="Negative Pair" width="400"/>
+</p>
 
 This data preparation strategy ensures the model learns both to recognize the same person under different conditions and to distinguish between different individuals.
 
