@@ -37,3 +37,21 @@ The required dependencies are listed in the `requirements.txt` file. To install 
 pip install -r requirements.txt
  
 
+## Usage
+
+### 1. Prepare Dataset
+Structure your dataset as:
+dataset/
+├── anchor/ # Reference images
+├── positive/ # Same-person variants
+└── negative/ # Different-person images
+
+Copy
+
+### 2. Train the Model
+```python
+from model import SiameseNetwork
+
+model = SiameseNetwork(backbone='efficientnetb0')
+model.train(data_dir='dataset/', epochs=50)
+
