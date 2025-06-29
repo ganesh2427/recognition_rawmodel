@@ -110,6 +110,15 @@ By addressing the intersection of deep metric learning, efficient architectures,
 
 Now you are ready to use the project!
 
+
+## Project Structure
+
+The repository is organized as follows:
+    recognition_rawmodel/ ├── backend/ │ ├── face.py # Main script for model definition, training, and evaluation │ └── ... # (Other backend scripts/utilities) ├── data/ │ ├── anchor/ # Reference images for each identity │ ├── positive/ # Positive samples (same person as anchor) │ └── negative/ # Negative samples (different person) ├── requirements.txt # Python dependencies ├── README.md # Project documentation └── ... # (Other files and folders)
+
+
+
+
 ## Usage
 
 ### 1. Prepare Dataset
