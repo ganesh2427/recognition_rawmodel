@@ -6,14 +6,14 @@ This project provides an face verification system using a Siamese Neural Network
 
 ### This repository contains:
 
-1.Model Architecture: Siamese Neural Network with EfficientNetB0 as the feature extractor.
-2.Training Scripts: Code for training and evaluating the face verification model.
-3.Data Structure: Example folder structure for organizing anchor, positive, and negative images.
-4.Preprocessing: Utilities for image loading, augmentation, and preprocessing.
-5.Requirements: requirements.txt file listing all Python dependencies.
-6.Documentation: Step-by-step instructions for installation, usage, and customization.
-7.Sample Results: Example outputs and accuracy metrics.
-8.License: Open-source license for academic and commercial use.
+1. Model Architecture: Siamese Neural Network with EfficientNetB0 as the feature extractor.
+2. Training Scripts: Code for training and evaluating the face verification model.
+3. Data Structure: Example folder structure for organizing anchor, positive, and negative images.
+4. Preprocessing: Utilities for image loading, augmentation, and preprocessing.
+5. Requirements: requirements.txt file listing all Python dependencies.
+6. Documentation: Step-by-step instructions for installation, usage, and customization.
+7. Sample Results: Example outputs and accuracy metrics.
+8. License: Open-source license for academic and commercial use.
 
 
 
