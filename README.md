@@ -29,6 +29,7 @@ This project provides an face verification system using a Siamese Neural Network
         - [Clone the repository](#Clone-the-repository)
         - [(Optional)Create and activate a virtual environment](#(Optional)Create-and-activate-a-virtual-environment)
         - [Install dependencies](#Install-dependencies)
+- [Project Structure](#Project-Structure)
 - [Usage](#usage)
 - [Results](#results)
 - [Future Work](#future-work)
