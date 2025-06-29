@@ -30,6 +30,18 @@ This project provides an face verification system using a Siamese Neural Network
 ## Background
 This project implements a **Siamese Neural Network** with **EfficientNetB0** backbone for face verification tasks. It compares pairs of facial images to determine if they belong to the same person, achieving **87% accuracy** while being optimized for edge devices.
 
+
+### Context and Motivation
+
+In the evolving landscape of biometric authentication, face recognition and verification have become foundational components in systems ranging from smartphone security and smart surveillance to border control and digital identity verification. As these systems increasingly operate in diverse and unconstrained environments, they demand high precision, robustness, and adaptability to real-world conditions. Traditional face recognition approaches, reliant on handcrafted features or shallow classifiers, often fail to cope with variations in lighting, pose, expression, and occlusions.
+
+To address these challenges, deep learning has emerged as a powerful tool, capable of learning hierarchical representations directly from raw facial data. In particular, Siamese Neural Networks (SNNs) have shown promise in face verification tasks due to their ability to learn meaningful similarity metrics from limited labeled data. However, the effectiveness of such models heavily depends on the quality of feature extraction and the architectural design used in learning embeddings.
+
+
+
+
+
+
 ## Key Features
 - 🎭 **Siamese Architecture**: Twin networks with shared weights
 - ⚡ **EfficientNetB0**: Lightweight pre-trained feature extractor
