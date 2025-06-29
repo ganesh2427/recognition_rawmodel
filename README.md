@@ -76,6 +76,55 @@ By addressing the intersection of deep metric learning, efficient architectures,
 
 
 
+
+
+
+
+## Data Preparation
+
+### Dataset Collection and Structuring
+
+The dataset for this project is organized into three categories: **anchor**, **positive**, and **negative** images. This structure supports metric learning techniques such as contrastive learning and triplet loss.
+
+- **Anchor Images:**  
+  Reference images for each individual. Each anchor serves as a baseline for comparison (e.g., a frontal face image of a person).
+
+- **Positive Images (Same-Person Pairs):**  
+  Images of the same individual as the anchor, possibly with variations in lighting, facial expression, or pose. These help the model learn facial similarity.
+
+- **Negative Images (Different-Person Pairs):**  
+  Images of different individuals than the anchor. These help the model learn to distinguish between different identities.
+
+### How the Dataset is Created
+
+- **Data Collection:**  
+  Images are sourced from publicly available facial recognition datasets. Each identity has multiple images, enabling the creation of anchor-positive and anchor-negative pairs.
+
+- **Folder Structure:**  
+
+    data/ ├── anchor/ # Reference images ├── positive/ # Additional images of the same individuals └── negative/ # Images of different people
+
+
+- **Preprocessing Steps:**  
+- **Face Detection:** Faces are detected using OpenCV’s Haar Cascade classifier.
+- **Resizing:** All images are resized to 100x100 pixels.
+- **Normalization:** Pixel values are scaled between 0 and 1.
+- **Augmentation:**  
+  - For positive pairs: Minor variations (rotation, brightness, etc.) are applied to simulate real-world conditions.
+  - For negative pairs: No augmentation is applied, as they already provide contrast.
+
+### Pair Types in Training
+
+| Pair Type      | Description                                 | Purpose in Training         |
+|----------------|---------------------------------------------|----------------------------|
+| Positive Pair  | Anchor & another image of the same person   | Helps model learn similarity|
+| Negative Pair  | Anchor & an image of a different person     | Helps model learn dissimilarity|
+
+This data preparation strategy ensures the model learns both to recognize the same person under different conditions and to distinguish between different individuals.
+
+
+
+
 ## Installation
 
 ### Prerequisites
@@ -110,6 +159,11 @@ By addressing the intersection of deep metric learning, efficient architectures,
 ---
 
 Now you are ready to use the project!
+
+
+
+
+
 
 
 ## Project Structure
@@ -155,8 +209,6 @@ The repository is organized as follows:
 - [Siamese Neural Network Paper](research_papers/siamese%20neural%20network.pdf)
 - [Paper: 1-s2.0-S2665917423001368-main](research_papers/1-s2.0-S2665917423001368-main.pdf)
 - [Paper: 2312.14001v2](research_papers/2312.14001v2.pdf)
-- [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
-- [Siamese Neural Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
 
 
 
