@@ -20,9 +20,9 @@ This project provides an face verification system using a Siamese Neural Network
 
 ## Table of Contents
 - [Background](#Background)
-    - [Context and Motivation](#1-Context-and-Motivation)
-    - [Objectives](#2-Objectives)
-    - [Significance of the Study](#3-Significance-of-the-Study)
+    - [Context and Motivation](#context-and-motivation)
+    - [Objectives](#objectives)
+    - [Significance of the Study](#significance-of-the-study)
 - [Install](#Install)
 - [Usage](#usage)
 - [Results](#results)
