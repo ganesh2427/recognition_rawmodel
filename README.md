@@ -30,7 +30,7 @@ This project provides an face verification system using a Siamese Neural Network
         - [(Optional)Create and activate a virtual environment](#(Optional)Create-and-activate-a-virtual-environment)
         - [Install dependencies](#Install-dependencies)
 - [Project Structure](#Project-Structure)
-- [Usage](#usage)
+- [Future Work](#Future-Work)
 - [Results](#results)
 - [Future Work](#future-work)
 - [References](#references)
@@ -138,6 +138,14 @@ The repository is organized as follows:
 ├── A_Review_of_Face_Recognition_Technology.pdf
 └── siamese neural network.pdf
 ```
+
+
+## Future Work
+
+- **Integration of ArcFace Loss:** Incorporate angular margin-based ArcFace loss to further improve the discriminative power of facial embeddings.
+- **Hard Negative Mining:** Implement strategies to select challenging negative pairs during training, enhancing model robustness.
+- **3D Face Data:** Extend the system to utilize 3D facial datasets for improved performance under varying poses, lighting, and occlusions.
+- **Model Optimization for Edge Devices:** Apply techniques such as quantization, pruning, and knowledge distillation to reduce model size and inference time for deployment on mobile and embedded devices.
 
 
 
