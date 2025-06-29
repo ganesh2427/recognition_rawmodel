@@ -317,7 +317,7 @@ The performance of the face verification system was assessed through a comparati
 - This indicates that although the network was minimizing the loss, it struggled to generalize to new face pairs.
 
 <p align="center">
-  <img src="images/baseline siamese result.png" alt="BaseLine Siamese Result" width="400"/>
+  <img src="images/baseline siamese result.png" alt="BaseLine Siamese Result" width="500"/>
 </p>
 
 ### Siamese Network with EfficientNetB0
@@ -327,14 +327,14 @@ The performance of the face verification system was assessed through a comparati
 - This reflects better generalization, stability, and learning capability, confirming the effectiveness of EfficientNetB0 for face feature extraction.
 
 <p align="center">
-  <img src="images/siamese integratin efficient net.png" alt="Siamese Integrated With Efficient Net Result" width="400"/>
+  <img src="images/siamese integratin efficient net.png" alt="Siamese Integrated With Efficient Net Result" width="500"/>
 </p>
 
 
 ### Performance Comparison (On Test Data)
 
 <p align="center">
-  <img src="images/chart.png" alt="Performance Comparison (On Test Data)" width="400"/>
+  <img src="images/chart.png" alt="Performance Comparison (On Test Data)" width="500"/>
 </p>
 
 ### Key Observations
