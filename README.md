@@ -19,9 +19,8 @@ This project provides an face verification system using a Siamese Neural Network
 
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
+- [Background](#Background)
+- [Install](#Install)
 - [Usage](#usage)
 - [Results](#results)
 - [Future Work](#future-work)
