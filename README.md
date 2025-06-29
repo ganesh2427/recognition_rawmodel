@@ -43,13 +43,13 @@ To address these challenges, deep learning has emerged as a powerful tool, capab
 
 This research aims to design and evaluate a face verification system based on a Siamese neural network integrated with EfficientNetB0. The key objectives are:
 
-	Architecture Design: Develop a Siamese network that compares image pairs and learns a 				discriminative embedding space using contrastive learning and L1 distance for facial 			similarity measurement.
+	Architecture Design: Develop a Siamese network that compares image pairs and learns a discriminative embedding space using contrastive learning and L1 distance for facial similarity measurement.
 
-	Backbone Optimization: Employ EfficientNetB0 as the feature extraction backbone to 				leverage pre-trained knowledge and improve convergence, while maintaining a 				manageable number of parameters for efficient training and inference.
+	Backbone Optimization: Employ EfficientNetB0 as the feature extraction backbone to leverage pre-trained knowledge and improve convergence, while maintaining a manageable number of parameters for efficient training and inference.
 
-	Performance Comparison: Evaluate and compare the baseline Siamese network (using a 				custom CNN) with the EfficientNet-enhanced version across metrics such as testing 				accuracy, model size, and training efficiency.
+	Performance Comparison: Evaluate and compare the baseline Siamese network (using a custom CNN) with the EfficientNet-enhanced version across metrics such as testing accuracy, model size, and training efficiency.
 
-	Practical Deployment: Demonstrate the model’s potential for real-world applications such as 			secure access systems, user authentication, and surveillance, while maintaining 				generalization across unseen faces.
+	Practical Deployment: Demonstrate the model’s potential for real-world applications such as secure access systems, user authentication, and surveillance, while maintaining generalization across unseen faces.
 
 
 
