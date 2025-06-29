@@ -4,6 +4,12 @@
 
 This project provides an face verification system using a Siamese Neural Network as the backbone, enhanced with a pre-trained EfficientNetB0 feature extractor. It is designed to compare pairs of facial images and determine if they belong to the same person, making it suitable for authentication and security applications. The model achieves high accuracy while remaining lightweight, making it ideal for deployment on edge devices. The repository includes all necessary code, instructions, and a sample data structure to help you get started quickly.
 
+### This repository contains:
+
+
+
+
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
