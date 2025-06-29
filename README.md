@@ -111,7 +111,7 @@ The dataset for this project is organized into three categories: **anchor**, **p
 
 
 <p align="center">
-  <img src="images/data str.png" alt="Data Structure" width="400"/>
+  <img src="images/data str.png" alt="Data Structure" width="600"/>
 </p>
 
 ### How the Dataset is Created
