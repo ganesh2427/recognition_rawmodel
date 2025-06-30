@@ -383,8 +383,8 @@ The repository is organized as follows:
 
 ## Documentation
 
-- 📄 [Project Report (PDF)](project-docs/Face_Verification_Report.pdf)
-- 🖼️ [Poster (PNG)](project-docs/Face_Verification_Poster.png)
+- 📄 [Project Report (PDF)](project_docs/Face_Verification_Report.pdf)
+- 🖼️ [Poster (PNG)](project_docs/Face_Verification_Poster.png)
 
 
 
