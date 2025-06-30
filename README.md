@@ -7,13 +7,11 @@ This project provides an face verification system using a Siamese Neural Network
 ### This repository contains:
 
 1. Model Architecture: Siamese Neural Network with EfficientNetB0 as the feature extractor.
-2. Training Scripts: Code for training and evaluating the face verification model.
-3. Data Structure: Example folder structure for organizing anchor, positive, and negative images.
-4. Preprocessing: Utilities for image loading, augmentation, and preprocessing.
-5. Requirements: requirements.txt file listing all Python dependencies.
-6. Documentation: Step-by-step instructions for installation, usage, and customization.
-7. Sample Results: Example outputs and accuracy metrics.
-8. License: Open-source license for academic and commercial use.
+2. Data Structure: Example folder structure for organizing anchor, positive, and negative images.
+3. Requirements: requirements.txt file listing all Python dependencies.
+4. Documentation: Step-by-step instructions for installation, usage, and customization.
+5. Sample Results: Example outputs and accuracy metrics.
+6. License: Open-source license for academic and commercial use.
 
 
 
@@ -42,6 +40,7 @@ This project provides an face verification system using a Siamese Neural Network
         - [Install dependencies](#Install-dependencies)
 - [Results and Evaluation](#Results-and-Evaluation)
 - [Project Structure](#Project-Structure)
+- [Documentation](#documentation)
 - [Future Work](#Future-Work)
 - [References](#references)
 - [License](#license)
@@ -226,11 +225,15 @@ The two input images (anchor and candidate) are passed through identical Efficie
 <p align="center">
   <img src="images/integration.png" alt="Integration of EfficientNetB0 in Siamese Network" width="400"/>
 </p>
+
 - **Loss Function:** Binary Cross-Entropy (BCE) Loss is used for the binary classification task.
+
 - **Optimizer:** Adam optimizer with a learning rate of 0.0001.
+
 - **Training Strategy:**  
   - The model is trained on batches of positive and negative pairs.
   - In the EfficientNetB0 variant, base layers are initially frozen to preserve pre-trained weights and later optionally fine-tuned.
+
 - **Early Stopping and Regularization:** Employed to prevent overfitting and ensure stable convergence.
 
 ### Face Verification Mechanics
@@ -378,6 +381,10 @@ The repository is organized as follows:
 
 
 
+## Documentation
+
+- 📄 [Project Report (PDF)](project-docs/Face_Verification_Report.pdf)
+- 🖼️ [Poster (PNG)](project-docs/Face_Verification_Poster.png)
 
 
 
